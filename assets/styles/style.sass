@@ -1,7 +1,7 @@
 @import 'fonts'
 @import 'colors'
 
-//Основные стили для всего документа
+//base style for all site
 *
   margin: 0
   padding: 0
@@ -16,7 +16,6 @@ body
   font-weight: 600
   line-height: 40.16px
 
-//Хедер
 .header
   position: relative
 
@@ -80,7 +79,7 @@ body
 
 
 
-//Первый и второй экран база
+
 $font-hero-title: 700 60px Mulish, sans-serif
 $font-hero-description: 400 20px Fira Sans, sans-serif
 $font-about-title: 600 32px Mulish, sans-serif
@@ -155,7 +154,6 @@ $font-text-content: 400 16px Fira Sans, sans-serif
   max-width: 100%
   display: flex
 
-
 .about-content 
   display: flex
   max-width: 100%
@@ -178,7 +176,6 @@ $font-text-content: 400 16px Fira Sans, sans-serif
   @media (max-width: 991px)
     width: 100%
 
-
 .about-image 
   flex-grow: 1
   max-width: 100%
@@ -189,11 +186,9 @@ $font-text-content: 400 16px Fira Sans, sans-serif
     border-bottom-right-radius: 0
 
 
-
 .text-column 
   display: flex
   width: 100%
-
 
 .text-content 
   display: flex
@@ -201,7 +196,6 @@ $font-text-content: 400 16px Fira Sans, sans-serif
   color: $text-color
   margin: auto 0
   font: $font-text-content
-
 
 .about-title 
   align-self: start
@@ -223,8 +217,6 @@ $font-text-content: 400 16px Fira Sans, sans-serif
     font-size: 22px
     margin-top: 20px
     
-
-
 .about-description 
   margin-top: 62px
   max-width: 625px
@@ -254,7 +246,7 @@ $font-text-content: 400 16px Fira Sans, sans-serif
     margin-top: 20px
     margin-left: 20px
 
-//Третий экран - история и миссия
+//History and mission
 .history
   &__wrapper
     margin-top: 4vw
@@ -280,7 +272,7 @@ $font-text-content: 400 16px Fira Sans, sans-serif
       padding-bottom: 4vw
     
 
-//Четвертый экран - Преимущества
+//Advantages
 .advantages
   &__wrapper
     max-width: 1590px
@@ -315,7 +307,7 @@ $font-text-content: 400 16px Fira Sans, sans-serif
     line-height: 1.2
     padding-bottom: 15px
 
-//Пятый экран - Форма обратной связи
+//Form styles
 .form
   position: relative
   &::before
@@ -477,7 +469,8 @@ textarea
   font-size: 1.125rem
   line-height: 1.2
   text-align: start
-//Карты-адреса
+
+//Addresses styles
 .addresses
   margin-top: 60px
   margin-bottom: 159px
@@ -539,7 +532,7 @@ textarea
       width: 787px
 
 .carousel-wrapper
-  position: relative // Для позиционирования стрелок
+  position: relative // for arrows position
   font-family: "Fira Sans"
   display: flex
   justify-content: center
@@ -550,7 +543,7 @@ textarea
 
   .item
     display: flex
-    flex-direction: column // Колонки друг под другом
+    flex-direction: column 
     max-width: 300px
     gap: 20px
     margin-right: 20px
@@ -578,7 +571,7 @@ textarea
     font-family: "Fira Sans"
     span
       font-size: 20px
-// Позиционирование стрелок по бокам от карусели
+// arrows position(sides)
 .owl-nav
   position: absolute
   top: calc(50% - 48px)
@@ -608,7 +601,6 @@ textarea
     opacity: 0
 
 
-//Футер
 .footer
   background-color: $primary-color
   &__wrapper
