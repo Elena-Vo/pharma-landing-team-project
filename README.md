@@ -19,7 +19,7 @@ How to run
 1.	Open your terminal (command line).
 2.	Clone the repository: git clone https://github.com/Elena-Vo/pharma-landing-team-project.git
 3.	Open index.html in your browser.
-4.	View the project on GitHub Pages: link
+4.	View the project on GitHub Pages: https://elena-vo.github.io/pharma-landing-team-project/
 ________________________________________
 My contribution 
 What was done:
@@ -59,7 +59,7 @@ ________________________________________
 2.	Клонируйте репозиторий:
 git clone https://github.com/Elena-Vo/pharma-landing-team-project.git
 3.	Откройте файл index.html в браузере.
-4.	Посмотреть проект на GitHub Pages: link
+4.	Посмотреть проект на GitHub Pages: https://elena-vo.github.io/pharma-landing-team-project/
 ________________________________________
 Мой вклад 
 Что было сделано:
